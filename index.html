@@ -30,6 +30,13 @@
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
         <h1 class="text-center">Spotify Search</h1>
+        <!-- Your app must have a form to search for tracks (songs). This form needs an input field for the search keyword -->
+        <form>
+          <input type="text" name="q">
+          <input type="submit" value="Go!" class="btn btn-primary">
+          <input type="hidden" name="type" value="track">
+          <!-- <input type="radio" name="type" value="artist"> ARTIST -->
+        </form>
         <div id="results"></div>
       </div>
     </div>
